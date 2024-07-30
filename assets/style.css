@@ -47,7 +47,7 @@
     font-weight: 800;
     color: #F9FAF8;
 }
-.left_side > h4{
+.hero > .left_side > h4{
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -60,4 +60,64 @@
     border: none;
     font-size: 15px;
 }
-   
+.info_section > h2{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+}
+.list_of_images {
+    display: flex;
+    justify-content: space-between;
+    padding: 75px;
+    text-align: center;
+}
+.list_of_images > .imgs >img{
+    border: 2px #3882f6 solid;
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    display: block;
+}
+.list_of_images > .imgs > span {
+    margin-top: 15px;
+}
+.quote_section{
+    background-color: #E5E7EB;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.quote_section > .main > h3{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.quote_section > .main > h4{
+    text-align: end;    
+    color: red;
+}
+.cta_section{
+    padding: 25px;
+}
+.cta_section > .main {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    height: 125px;
+    border-radius: 15px;
+    align-items: center;
+    color: #E5E7EB;
+}
+.cta_section > .main > button{
+    padding: 10px 25px;
+    border: 3px #E5E7EB solid;
+    background: none;
+    border-radius: 10px;
+    color: #E5E7EB;
+}
