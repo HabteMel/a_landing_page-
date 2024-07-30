@@ -121,3 +121,10 @@
     border-radius: 10px;
     color: #E5E7EB;
 }
+.footer_section{
+    text-align: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 50px;
+    font-size: 25px;
+}
